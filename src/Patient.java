@@ -7,6 +7,8 @@ public class Patient {
 	String address;
 	String phone_number;
 	String disease;
+	String newentry;
+	
 	public Patient(String name, String id, String password, String address, String phone_number, String disease) {
 		super();
 		this.name = name;
@@ -15,6 +17,7 @@ public class Patient {
 		this.address = address;
 		this.phone_number = phone_number;
 		this.disease = disease;
+		this.newentry = newentry;
 	}
 	public Patient() {
 		
